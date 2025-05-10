@@ -1,0 +1,54 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(to bottom, #fdf6e3, #e0f7fa);
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #6a1b9a;
+}
+
+.question {
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff8dc;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-a {
+  background-color: #ffc1c1;
+}
+
+.btn-b {
+  background-color: #add8e6;
+}
+
+#result {
+  font-size: 2em;
+  margin-top: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.house-image {
+  width: 200px;
+  margin-top: 20px;
+}
