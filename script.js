@@ -60,12 +60,12 @@ function showResult() {
     if (scoreA > scoreB) {
         resultDiv.innerHTML = `
       <div class="gryffindor">You are in <strong>GRYFFINDOR</strong>! Brave and bold!</div>
-      <img src="gryffindor.png" class="house-image" alt="Gryffindor"/>
+      <img src="gryffindor.jpeg" class="house-image" alt="Gryffindor"/>
     `;
     } else {
         resultDiv.innerHTML = `
       <div class="ravenclaw">You are in <strong>RAVENCLAW</strong>! Wise and clever!</div>
-      <img src="ravenclaw.png" class="house-image" alt="Ravenclaw"/>
+      <img src="ravenclaw.jpeg" class="house-image" alt="Ravenclaw"/>
     `;
     }
 }
